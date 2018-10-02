@@ -1,0 +1,38 @@
+.container {
+    margin: 3rem auto;
+    width: 960px;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+p , a {
+    font-family: 'Open Sans', sans-serif;
+    text-align: justify;
+    line-height: 1.5rem;
+    text-decoration: none;
+}
+p {
+    color: black;
+    opacity: 0.8;
+}
+h3 > a {
+    color: black;
+    opacity: 0.9;
+    text-decoration: none;
+}
+
+h3 > a:hover {
+    text-decoration: underline;
+}
+hr {
+    width: 100px;
+}
+nav > ul > li {
+    display: inline;
+    margin: 0px 15px 0px 0px;
+}
+
+ul {
+    padding: 0px;
+}

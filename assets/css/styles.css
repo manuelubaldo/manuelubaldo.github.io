@@ -1,6 +1,6 @@
 .container {
     margin: 3rem auto;
-    width: 600px;
+    max-width: 600px;
 }
 h1{
     font-family: 'Roboto', sans-serif;
@@ -35,4 +35,18 @@ nav > ul > li {
 
 ul {
     padding: 0px;
+}
+
+a {
+    color: #0a7d8f;
+}
+
+hr {
+    border-color: #0a7d8f;
+    border-style: solid;
+}
+
+.fab {
+    font-size: 24px;
+    color: #0a7d8f;
 }

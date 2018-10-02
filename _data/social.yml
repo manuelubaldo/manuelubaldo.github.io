@@ -1,6 +1,9 @@
 - name: Facebook
   link: https://facebook.com/manueljr.ubaldo
+  ico: facebook-square
 - name: Github
   link: https://github.com/manuelubaldo
+  ico: github-square
 - name: Linkedin
   link: https://ph.linkedin.com/in/manuel-jr-ubaldo-a0bbb2a3
+  ico: linkedin

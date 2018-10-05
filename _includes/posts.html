@@ -1,7 +1,12 @@
-<div>
-    {% for post in site.posts %}
-        <h3><a href="{{ post.url }}"> {{ post.title }}</a></h3>
+{% for post in site.posts %}
+    <article>
+        <header>
+            <h3><a href="{{ post.url }}"> {{ post.title }}</a></h3>
+        </header>
+        <div class="cover" style="background-image: url('../assets/images/{{ post.cover }}')"></div>
         {{ post.excerpt }}
-        <hr />
-    {% endfor %}
-</div>
+        <footer>
+            <hr />
+        </footer>
+    </article>
+{% endfor %}

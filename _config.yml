@@ -1,2 +1,13 @@
 title: Manuel Ubaldo Jr. - Portfolio/Personal Site/Blog
 description: I am a fullstack developer with 5 years experience in Database Administration and Software Development.
+logo: /assets/images/favicon.ico
+
+social:
+  name: Manuel Ubaldo
+  links:
+    - https://facebook.com/manueljr.ubaldo
+    - https://github.com/manuelubaldo
+    - https://ph.linkedin.com/in/manuel-jr-ubaldo-a0bbb2a3
+
+plugins:
+ - jekyll-seo-tag

@@ -2,6 +2,7 @@
 layout: post
 title: Choosing the right Stack for my portfolio.
 cover: creating-a-website.jpeg
+image: assets/images/creating-a-website.jpeg
 permalink: choosing-the-right-stack-for-my-portfolio
 ---
 Developers and non-technical people have now gazillion of options in building websites, Blogs, and even marketplaces. Ranging from drag n drop tools like Wix, , the popular WordPress and Magento for e commerce sites. With the options we have in our hands put a lot of dilemma in choosing the right tools and platform. 

@@ -64,7 +64,7 @@ Jekyll exceeds not only on developement time but also in performance and deploym
 ### Maintenace.
 Jekyll can be deploy on a serverless environment reducing infrasture maintance. It can be hosted in free services like Github Pages.
 
-#### Security
+### Security
 Since no back end process and user input was required to run the application I can say that security in Jekyll is good. Of course you should always use difficulat password on your hosting provider.
 
 ### Community and Plugins

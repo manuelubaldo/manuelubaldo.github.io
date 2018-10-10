@@ -97,5 +97,8 @@
         {{ content }}
         {% include social.html %}
     </div>
+    {% if jekyll.environment != "development" %}
+        {% include googleanalytics.html %}
+    {% endif %}
 </body>
 </html>

@@ -23,9 +23,6 @@
     }
 
     .cover {
-        /* position:absolute;
-        top: 0;
-        left: 0; */
         max-width: 100%;
         height: 100vh;
         background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url('/assets/images/cover.jpeg') no-repeat center center fixed;
@@ -33,7 +30,6 @@
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        /* opacity: 0.5; */
     }
 
     
@@ -54,7 +50,7 @@
         margin: 0 auto;
         padding:0px 10px 0px 10px;  
     }
-
+    
     .jumbo a {
         color: #ffffff;
         text-decoration: none;
@@ -74,7 +70,6 @@
         padding: 0px;
     }
 
-
     </style>
 </head>
 <body>
@@ -92,24 +87,11 @@
                             <a href="{{ item.link }}">{{ item.name }}</a>
                         </li>
                         {% endfor %}
-                        <!-- <li><a href="#">github</a></li>
-                        <li><a href="#">facebook</a></li>
-                        <li><a href="#">linkedin</a></li> -->
-                        
                     </ul>
                 </p>
+            </div>
         </div>
     </div>
-    <!-- <div class="container">
-        <div>
-            <h1>Projects</h1>
-        </div>
-    </div>
-    <div class="container">
-        <section>
-            <header><h1>Posts</h1></header>
-        </section>
-    </div> -->
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script>
     var typed = new Typed('.typed', {

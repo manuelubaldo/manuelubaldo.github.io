@@ -48,19 +48,32 @@
         align-items: center;
         width: 100%;
     }
-        max-width: 960px;
-        margin: 0 auto;
-    }
-
-    .container-fluid{
-        width: 100%;
-    }
 
     .jumbo {
         max-width: 960px;
         margin: 0 auto;
-        padding-top: 150px;
+        padding:0px 10px 0px 10px;  
     }
+
+    .jumbo a {
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+    }
+
+    .jumbo a:hover {
+        text-decoration: underline;
+    }
+
+    li {
+        display:inline;
+        margin-right: 10px;
+    }
+
+    ul {
+        padding: 0px;
+    }
+
 
     </style>
 </head>
@@ -72,7 +85,19 @@
                 <p>
                     I am a fullstack developer with 5 years experience in Database Administration, Software and Web Development.
                 </p>
-            </div>
+                <p>
+                    <ul>
+                        {% for item in site.data.social %}
+                        <li>
+                            <a href="{{ item.link }}">{{ item.name }}</a>
+                        </li>
+                        {% endfor %}
+                        <!-- <li><a href="#">github</a></li>
+                        <li><a href="#">facebook</a></li>
+                        <li><a href="#">linkedin</a></li> -->
+                        
+                    </ul>
+                </p>
         </div>
     </div>
     <!-- <div class="container">

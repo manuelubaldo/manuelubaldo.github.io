@@ -117,5 +117,8 @@
         typeSpeed:50
     });
     </script>
+    {% if jekyll.environment != "development" %}
+        {% include googleanalytics.html %}
+    {% endif %}
 </body>
 </html>
